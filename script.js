@@ -1,11 +1,13 @@
 function correta() {
-  const resultado = document.getElementById("resultado");
-  resultado.innerHTML = "✅ Excelente! Você entende os princípios do Agro 4.0.";
-  resultado.style.color = "green";
+  const res = document.getElementById("resultado");
+  res.innerText = "✅ Excelente! Você entende os princípios do Agro 4.0.";
+  res.style.color = "#1b5e20";
+  res.style.fontWeight = "bold";
 }
 
 function errada() {
-  const resultado = document.getElementById("resultado");
-  resultado.innerHTML = "❌ Resposta incorreta. Sustentabilidade exige tecnologia e preservação.";
-  resultado.style.color = "red";
+  const res = document.getElementById("resultado");
+  res.innerText = "❌ Resposta incorreta. Sustentabilidade exige tecnologia e preservação.";
+  res.style.color = "#d32f2f";
+  res.style.fontWeight = "bold";
 }
