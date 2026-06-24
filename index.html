@@ -15,13 +15,45 @@
     <nav>
       <a href="#agro">Produção</a>
       <a href="#sustentabilidade">Tecnologia</a>
-      <a href="#desafios">Desafios</a>
       <a href="#futuro">Quiz</a>
-      <a href="#contato">Contato</a>
     </nav>
   </header>
 
   <main>
     <section class="hero">
       <div class="hero-content">
-        <h2>Agro forte, <br><strong>
+        <h2>Agro forte, <br><strong>Futuro Sustentável</strong></h2>
+        <p>A tecnologia transformando o campo com consciência ambiental.</p>
+        <a href="#futuro" class="btn">Testar Conhecimentos</a>
+      </div>
+    </section>
+
+    <section id="sustentabilidade">
+      <h2>Tecnologia e Sustentabilidade</h2>
+      <div class="image-container">
+        <img src="assets/imagem1.png" alt="IA monitorando plantação de forma sustentável">
+        <img src="assets/imagem2.png" alt="Drones e tecnologia aplicados ao Agro 4.0">
+      </div>
+    </section>
+
+    <section id="futuro">
+      <h2>Quiz Agro 4.0</h2>
+      <div class="quiz-box">
+        <h3>Qual é o principal objetivo da agricultura de precisão?</h3>
+        <div class="quiz-options">
+          <button onclick="errada()">Aumentar o uso de defensivos sem controle.</button>
+          <button onclick="correta()">Otimizar recursos e reduzir impactos usando dados e tecnologia.</button>
+          <button onclick="errada()">Abandonar o campo e focar apenas na produção urbana.</button>
+        </div>
+        <p id="resultado"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 AgroSustentável - Cultivando o Amanhã.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
